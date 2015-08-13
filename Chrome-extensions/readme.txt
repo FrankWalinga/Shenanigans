@@ -1,1 +1,2 @@
 Thanks to https://github.com/mjp2220/useless-chrome-extensions for the inspiration and explaination.
+Icons courtesy of http://www.smashingmagazine.com/2014/04/freebie-flat-icon-set-60-icons-png-svg-eps-psd-ai/
