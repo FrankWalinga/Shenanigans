@@ -2,12 +2,17 @@
 var LINK = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 var RATIO = 0.1;
 
-// Get all the links on the page.
-var links = document.getElementsByTagName("a");
+var currentDate = new Date();
 
-// Replace ~RATIO of them with Rick Astley.
-for (var i = 0; i < links.length; i++) {
-    if (Math.random() < RATIO) {
-    links[i].href = LINK;
+if(currentDate.getTime() > 1441105869000){
+
+    // Get all the links on the page.
+    var links = document.getElementsByTagName("a");
+    
+    // Replace ~RATIO of them with Rick Astley.
+    for (var i = 0; i < links.length; i++) {
+        if (Math.random() < RATIO) {
+        links[i].href = LINK;
+        }
     }
 }
