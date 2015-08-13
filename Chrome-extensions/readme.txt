@@ -1,0 +1,1 @@
+Thanks to https://github.com/mjp2220/useless-chrome-extensions for the inspiration and explaination.

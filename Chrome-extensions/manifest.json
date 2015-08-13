@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Shenanigans",
+    "version": "1.0",
+    "description": "Shenanigans",
+    "content_scripts":[
+        {
+            "matches": ["*://*/*"],
+            "js": [
+                    "imageReplacementShenanigans.js",
+                    "linkReplacementShenanigans.js",
+                    "textReplacementShenanigans.js"
+                ],
+            "run_at": "document_end"
+        }
+    ]
+}
