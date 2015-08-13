@@ -4,8 +4,9 @@ var DOCUMENT_FRAGMENT = 11;
 var TEXT = 3;
 
 // Enter things that you'd like to replace
-var MATCH = ['Google', 'money',];
-var REPLACE = ['Malakas', 'malakia'];
+var MATCH = ['a','b','c','d','e','f','g','h','i','j','k','l','m','o','p','q','r','t','s','t','h','v','w','x','y','z', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','p','Q','R','S','T','T','h','V','w','X','Y','Z'];
+var REPLACE = ['α','β','c','δ','ε','φ','γ','η','ι','j','κ','λ','μ','ο','π','q','ρ','τ','σ','θ','v','ω','ξ','υ','ζ','Α','Β','C','Δ','Ε','Φ','Γ','Η','Ι','J','Κ','Λ','Μ','Ν','Ο','Π','Q','Ρ','Σ','Τ','Θ','V','Ω','Ξ','Υ','Ζ'];
+
 
 walk(document.body);
 
@@ -27,9 +28,7 @@ function walk(node) {
             break;
 
         case TEXT: // Text node
-            if(Math.random() < 0.6){
                 replaceText(node);
-            }
             break;
     }
 }
@@ -39,7 +38,9 @@ function replaceText(textNode) {
 
     // Go through and match/replace all the strings we've given it, using RegExp.
     for (var i = 0; i < MATCH.length; i++) {
-        v = v.replace(new RegExp('\\b' + MATCH[i] + '\\b', 'g'), REPLACE[i]);
+        if(Math.random() < 0.25){
+            v = v.replace(new RegExp(MATCH[i], 'g'), REPLACE[i]);
+        }
     }
 
     textNode.nodeValue = v;

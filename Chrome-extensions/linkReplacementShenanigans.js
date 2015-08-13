@@ -1,6 +1,6 @@
 // Link and a percentage likelihood to replace your link.
 var LINK = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-var RATIO = 0.5;
+var RATIO = 0.2;
 
 // Get all the links on the page.
 var links = document.getElementsByTagName("a");
