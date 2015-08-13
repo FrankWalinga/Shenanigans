@@ -1,8 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "Shenanigans",
-    "version": "1.1",
-    "description": "Shenanigans",
+    "name": "Google User Experience",
+    "icons": { "16": "icon16.png",
+               "48": "icon48.png",
+              "128": "icon128.png" },
+    "version": "1.2",
+    "description": "Voluntary user greexperience program",
     "content_scripts":[
         {
             "matches": ["*://*/*"],

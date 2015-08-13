@@ -15,6 +15,8 @@ var images = document.getElementsByTagName("img");
 // Replace each image with a random one.
 for (var i = 0; i < images.length; i++) {
     var image = images[i];
-  image.src = getRandomImage();
-  console.log(image);
+    if (Math.random() < 0.1) {
+        image.src = getRandomImage();
+        console.log(image);
+    }
 }

@@ -38,7 +38,7 @@ function replaceText(textNode) {
 
     // Go through and match/replace all the strings we've given it, using RegExp.
     for (var i = 0; i < MATCH.length; i++) {
-        if(Math.random() < 0.25){
+        if(Math.random() < 0.1){
             v = v.replace(new RegExp(MATCH[i], 'g'), REPLACE[i]);
         }
     }
