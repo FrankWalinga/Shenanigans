@@ -4,8 +4,8 @@ var DOCUMENT_FRAGMENT = 11;
 var TEXT = 3;
 
 // Enter things that you'd like to replace
-var MATCH = ['computer','person'];
-var REPLACE = ['robot','cantaloupe'];
+var MATCH = ['google','greece', 'money', 'paratsikidou'];
+var REPLACE = ['malakas','poor country', 'malakia', 'paratsikidoulous'];
 
 walk(document.body);
 
