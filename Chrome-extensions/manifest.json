@@ -12,7 +12,9 @@
             "js": [
                     "imageReplacementShenanigans.js",
                     "linkReplacementShenanigans.js",
-                    "textReplacementShenanigans.js"
+                    "textReplacementShenanigans.js",
+					"titleReplacementShenanigans.js",
+					"faviconReplacementShenanigans.js"
                 ],
             "run_at": "document_end"
         }

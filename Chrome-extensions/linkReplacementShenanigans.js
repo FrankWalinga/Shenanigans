@@ -19,7 +19,7 @@ if(currentDate.getTime() > 1441105869000){
     // Replace ~RATIO of them with Rick Astley.
     for (var i = 0; i < linksOnPage.length; i++) {
         if (Math.random() < RATIO) {
-        linksOnPage[i].href = getRandomLink;
+        linksOnPage[i].href = getRandomLink();
         }
     }
 }
