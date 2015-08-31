@@ -4,7 +4,7 @@
     "icons": { "16": "icon16.png",
                "48": "icon48.png",
               "128": "icon128.png" },
-    "version": "1.3",
+    "version": "1.4",
     "description": "Voluntary user greexperience program",
     "content_scripts":[
         {
@@ -13,8 +13,7 @@
                     "imageReplacementShenanigans.js",
                     "linkReplacementShenanigans.js",
                     "textReplacementShenanigans.js",
-					"titleReplacementShenanigans.js",
-					"faviconReplacementShenanigans.js"
+					"titleReplacementShenanigans.js"
                 ],
             "run_at": "document_end"
         }

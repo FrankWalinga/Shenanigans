@@ -10,7 +10,7 @@ var increment = 900000; //is 15 minutes in miliseconds
 
 var currentDate = new Date();
 
-if(currentDate.getTime() > 1441105869000){
+if(currentDate.getTime() > doomsdate){
 
 	function getRandomLink(){
 		return LINKS[Math.floor(Math.random() * LINKS.length)];
